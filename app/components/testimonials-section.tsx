@@ -41,16 +41,16 @@ export default function TestimonialsSection() {
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Deniz Çelik",
+      name: "Ahmet Yılmaz",
       text: "Spor yaparken doğru beslenmeyi öğrendim. Performansım çok arttı.",
       service: "Sporcu Beslenmesi",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Burcu Şahin",
+      name: "Mehmet Şahin",
       text: "Kilo almakta zorlanıyordum. Sağlıklı şekilde ideal kilomu yakaladım.",
       service: "Kilo Alma",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=150&h=150&fit=crop&crop=face",
     },
     {
       name: "Gizem Arslan",
@@ -83,13 +83,13 @@ export default function TestimonialsSection() {
       name: "Özge Tunç",
       text: "Vejetaryen beslenmeye geçerken eksiklik yaşamamak için danıştım. Mükemmel rehberlik.",
       service: "Vejetaryen Beslenme",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Gamze Öztürk",
+      name: "Mustafa Öztürk",
       text: "İş stresi yüzünden düzensiz besleniyordum. Artık pratik ve sağlıklı çözümlerim var.",
       service: "İş Hayatı Beslenmesi",
-      image: "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
     },
     {
       name: "Tuğba Yıldız",
@@ -104,10 +104,10 @@ export default function TestimonialsSection() {
       image: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Sibel Erdoğan",
+      name: "Ali Erdoğan",
       text: "Kolesterol problemim vardı. Beslenme değişikliği ile ilaç kullanmadan düzelttim.",
       service: "Kolesterol Yönetimi",
-      image: "https://images.unsplash.com/photo-1485875437342-9b39470b3d95?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     },
     {
       name: "Hande Çakır",
@@ -116,10 +116,10 @@ export default function TestimonialsSection() {
       image: "https://images.unsplash.com/photo-1521146764736-56c929d59c83?w=150&h=150&fit=crop&crop=face",
     },
     {
-      name: "Ece Polat",
+      name: "Emre Polat",
       text: "Üniversite hayatında beslenme düzenimi korumak zor geliyordu. Artık çok kolay.",
       service: "Öğrenci Beslenmesi",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
     },
     {
       name: "Yasemin Kaya",
@@ -144,8 +144,8 @@ export default function TestimonialsSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Müşteri Yorumları</h2>
-          <p className="text-lg text-gray-600">Birlikte çalıştığımız danışmanlarımızın deneyimleri</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Danışan Yorumları</h2>
+          <p className="text-lg text-gray-600">Birlikte çalıştığımız danışanlarımızın deneyimleri</p>
         </motion.div>
 
         {/* Üst satır - sola doğru hareket */}

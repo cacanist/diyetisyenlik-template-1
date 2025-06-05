@@ -102,7 +102,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="text-emerald-400 hover:text-emerald-300 transition-colors"
             >
-              March Digital
+              Chaaru Digital
             </a>
           </p>
         </motion.div>

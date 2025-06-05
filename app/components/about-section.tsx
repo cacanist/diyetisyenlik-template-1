@@ -3,6 +3,8 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
+import { Button } from "@/components/ui/button"
+import { CalendarDays } from "lucide-react"
 
 export default function AboutSection() {
   const ref = useRef(null)
@@ -31,7 +33,7 @@ export default function AboutSection() {
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-3xl overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&h=800&fit=crop"
                   alt="Öykü Eryücel - Diyetisyen"
                   className="w-full h-full object-cover"
                 />
@@ -52,12 +54,8 @@ export default function AboutSection() {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-gray-900">Merhaba, Ben Öykü!</h3>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Ege Üniversitesi Beslenme ve Diyetetik bölümü mezunuyum. 5 yıldır kadınların yaşam tarzlarına uygun,
-                sürdürülebilir beslenme planları oluşturarak sağlıklı yaşam hedeflerine ulaşmalarına yardımcı oluyorum.
-              </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Beslenme sadece kilo vermek değil, kendinizi iyi hissetmek ve enerji dolu bir yaşam sürmektir. Bu
-                yolculukta yanınızda olmaktan mutluluk duyarım.
+                Ege Üniversitesi Beslenme ve Diyetetik bölümü mezunuyum. Sürdürülebilir beslenme planları oluşturarak
+                sağlıklı yaşam hedeflerine ulaşmanıza yardımcı oluyorum.
               </p>
             </div>
 
@@ -65,7 +63,7 @@ export default function AboutSection() {
             <div className="grid grid-cols-2 gap-4 mt-8">
               <div className="bg-emerald-50 p-4 rounded-2xl">
                 <div className="text-2xl font-bold text-emerald-700 mb-1">500+</div>
-                <div className="text-sm text-gray-600">Mutlu Müşteri</div>
+                <div className="text-sm text-gray-600">Mutlu Danışan</div>
               </div>
               <div className="bg-amber-50 p-4 rounded-2xl">
                 <div className="text-2xl font-bold text-amber-700 mb-1">5 Yıl</div>
@@ -80,6 +78,25 @@ export default function AboutSection() {
                 <div className="text-sm text-gray-600">Ücretsiz İlk Görüşme</div>
               </div>
             </div>
+
+            {/* CTA Button */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="mt-8"
+            >
+              <Button
+                size="lg"
+                className="gold-accent text-white px-6 py-3 text-base rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full md:w-auto"
+                asChild
+              >
+                <a href="https://wa.me/905337939582" target="_blank" rel="noopener noreferrer">
+                  <CalendarDays className="mr-2 h-5 w-5" />
+                  Ücretsiz Danışmanlık Randevusu Al
+                </a>
+              </Button>
+            </motion.div>
           </motion.div>
         </div>
       </div>

@@ -80,7 +80,7 @@ export default function CTABanner() {
               className="bg-white text-emerald-700 hover:bg-gray-50 px-6 md:px-10 py-4 md:py-6 text-base md:text-xl rounded-2xl shadow-2xl font-bold transform transition-all duration-300 w-full md:w-auto"
               asChild
             >
-              <a href="https://wa.me/905555555555" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/905337939582" target="_blank" rel="noopener noreferrer">
                 <CalendarDays className="mr-2 md:mr-3 h-5 md:h-6 w-5 md:w-6" />
                 <span className="text-center">WhatsApp'tan Ücretsiz Görüşme Başlat</span>
               </a>
